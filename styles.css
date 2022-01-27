@@ -15,6 +15,9 @@
     --fw-1: 400;
     --fw-2: 700;
 
+    /* family */
+
+    --cursive:'Balsamiq Sans', cursive;
     
 }
 
@@ -33,4 +36,34 @@ img {
 ul,
 li {
     list-style: none;
+}
+
+.container {
+    padding: 0 .5em;
+    margin: 0 auto;
+}
+
+.qr--code {
+    background-image: url(/images/image-qr-code.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100%;
+}
+
+.bg-lightgrey {
+    background-color: var(--primary-Light-gray);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+}
+
+.card {
+    background-color: var(--primary-white);
+    border-radius: 20px;
+    margin: 10em auto 4em;
+    padding: 3em 4em;
+    
 }
