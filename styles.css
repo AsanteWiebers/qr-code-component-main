@@ -9,8 +9,9 @@
     /* fonts */
 
     --fs-1: 1.125rem;
+    
     --fs-2: 1.3rem;
-
+    --fs-3: 1.5rem;
     /* weight */
 
     --fw-1: 400;
@@ -55,11 +56,12 @@ li {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 100vh;
+    height: 120%;
 }
 
 .qr--code {
     border-radius: 20px;
+    margin: 0 auto;
 }
 
 .card {
@@ -82,10 +84,9 @@ li {
     color: var(--primary-Grayish-blue);
 }
 
-.attribution {
- position: fixed;
- bottom: 0;
-}
+
+
+/* Media queries */
 
 @media(min-width: 768px) and (max-width: 1000px){
 
@@ -101,5 +102,40 @@ li {
     }
 
  }
+
+ @media(min-width: 1000px){
+
+    .qr--code {
+        margin: 0 auto .7em;
+        width: 99%;
+    }
+
+    .bold,
+    .grey {
+        width: 75%;
+        font-size: var(--fs-3);
+        margin: .5em auto;
+    }
+
+    .card {
+        width: 40%;
+    }
+
+     .bg-lightgrey {
+        background-color: var(--primary-Light-gray);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 120%;
+     }
+
+     
+ }
+
     
     
+
+
+ 
