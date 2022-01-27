@@ -1,0 +1,36 @@
+/* Custom properties */
+
+:root {
+    --primary-white: hsl(0, 0%, 100%);
+    --primary-Light-gray: hsl(212, 45%, 89%);
+    --primary-Grayish-blue: hsl(220, 15%, 55%);
+    --primary-Dark-blue: hsl(218, 44%, 22%);
+
+    /* fonts */
+
+    --fs-1: 1.125rem;
+
+    /* weight */
+
+    --fw-1: 400;
+    --fw-2: 700;
+
+    
+}
+
+*,
+*::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul,
+li {
+    list-style: none;
+}
