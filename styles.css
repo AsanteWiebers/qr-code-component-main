@@ -9,6 +9,7 @@
     /* fonts */
 
     --fs-1: 1.125rem;
+    --fs-2: 1.3rem;
 
     /* weight */
 
@@ -28,6 +29,10 @@
     margin: 0;
 }
 
+body {
+    font-family: var(--cursive);
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -39,15 +44,8 @@ li {
 }
 
 .container {
-    padding: 0 .5em;
+    padding: 0 1.2em;
     margin: 0 auto;
-}
-
-.qr--code {
-    background-image: url(/images/image-qr-code.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 100%;
 }
 
 .bg-lightgrey {
@@ -60,10 +58,22 @@ li {
     height: 100vh;
 }
 
+.qr--code {
+    border-radius: 20px;
+}
+
 .card {
+
+    text-align: center;
     background-color: var(--primary-white);
     border-radius: 20px;
     margin: 10em auto 4em;
-    padding: 3em 4em;
+    padding: 1em;
     
+}
+
+.bold {
+    margin: 1em 0;
+    font-weight: var(--fw-2);
+    font-size: var(--fs-2);
 }
